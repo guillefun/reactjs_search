@@ -1,10 +1,20 @@
 import React from 'react';
-import logo from './logoUniovi.png';
-import './App.css';
+import logo from './assets/img/logoUniovi.png';
+import './assets/css/App.css';
+
+import MainNav from './components/NavBar';
+import SimpleFooter from './components/SimpleFooter';
 
 function App() {
   return (
+   
     <div className="App">
+        <MainNav 
+          companyName="Uniovi"
+          logo={logo}
+          clickMsg="Hello World"
+        />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +29,7 @@ function App() {
           Uniovi
         </a>
       </header>
+      <SimpleFooter />     
     </div>
   );
 }
