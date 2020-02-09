@@ -7,15 +7,13 @@ import SimpleFooter from './components/SimpleFooter';
 
 function App() {
   return (
-   
     <div className="App">
         <MainNav 
           companyName="Uniovi"
           logo={logo}
           clickMsg="Hello World"
         />
-
-      <header className="App-header">
+      <main className="App-main">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Bienvenidos a este ejemplo de ReactJS<span>&#128127;</span>.
@@ -28,7 +26,7 @@ function App() {
         >
           Uniovi
         </a>
-      </header>
+      </main>
       <SimpleFooter />     
     </div>
   );

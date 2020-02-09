@@ -1,0 +1,17 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+
+	@font-face {
+	    font-family: 'zocial', sans-serif;
+	}
+    p{
+        color: aliceblue;
+    }
+    a:hover, a:active{
+        color: rgb(173, 233, 213);
+    }
+    footer {
+        background-color: #2E3639;
+        position: relative;
+        z-index: 1;
+    }

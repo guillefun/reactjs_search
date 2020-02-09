@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-
+import '../assets/css/SimpleFooter.css';
 class SimpleFooter extends Component{
    
     render(){
